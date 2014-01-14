@@ -1,2 +1,5 @@
 .ipynb_checkpoints
-experimental
+*.bz2
+*.pyc
+experimental/
+img/
