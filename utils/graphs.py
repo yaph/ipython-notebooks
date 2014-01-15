@@ -3,20 +3,20 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def barh(df, value_col, filename, figsize=(10, 10), title=None, footer=None):
-    fig = plt.figure(figsize=figsize)
-    R = range(len(df))
+def barh(x, y, filename, figsize=(10, 10), title=None, footer=None):
+    plt.figure(figsize=figsize)
+    R = range(len(x))
 
     rects = plt.barh(
         R,
-        df[value_col],
+        y,
         height=.7,
         color='#4682B4',
         alpha=.8)
 
     for i, rect in enumerate(rects):
         width = rect.get_width()
-        label = '  ' + str(df.values[i][0])
+        label = '  ' + str(y[i])
         plt.text(width + 0.25,
                  rect.get_y() + rect.get_height() / 2.,
                  label,
@@ -25,10 +25,10 @@ def barh(df, value_col, filename, figsize=(10, 10), title=None, footer=None):
                  color='#666666')
 
     # Move y ticks down a bit to align with the bars.
-    ypos = [y + 0.35 for y in R]
+    ypos = [r + 0.35 for r in R]
 
     # Fix possible problems with unicode chars.
-    labels = df.index.map(lambda x: x.decode('utf-8'))
+    labels = [l.decode('utf-8') for l in x]
 
     plt.yticks(ypos, labels)
 
@@ -43,13 +43,13 @@ def barh(df, value_col, filename, figsize=(10, 10), title=None, footer=None):
     ax.spines['bottom'].set_visible(False)
 
     if title:
-        plt.title(title, color='#444444')
+        plt.title(title.decode('utf-8'), color='#444444')
 
     if footer:
         ax.text(
-            df.values.max() / 2.,
-            0,
-            footer,
+            max(y) / 2,
+            -.2,
+            footer.decode('utf-8'),
             fontsize=12.5,
             va='top',
             color='#444444')
