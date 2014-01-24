@@ -1,5 +1,5 @@
 .ipynb_checkpoints
 *.bz2
 *.pyc
-experimental/
+exp/
 img/
