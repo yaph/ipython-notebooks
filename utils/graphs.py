@@ -10,7 +10,7 @@ def barh(x, y, filename, figsize=(10, 10), title=None, footer=None):
     rects = plt.barh(
         R,
         y,
-        height=.7,
+        height=.8,
         color='#4682B4',
         alpha=.8)
 
