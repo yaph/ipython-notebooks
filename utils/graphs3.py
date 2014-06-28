@@ -16,7 +16,7 @@ def barh(x, y, filename, figsize=(10, 10), title=None, footer=None, fontsize=13)
 
     for i, rect in enumerate(rects):
         width = rect.get_width()
-        label = '  {0:,d}'.format(y[i])
+        label = '  {0:,.0f}'.format(y[i])
         plt.text(width + 0.25,
                  rect.get_y() + rect.get_height() / 2.,
                  label,
@@ -45,7 +45,7 @@ def barh(x, y, filename, figsize=(10, 10), title=None, footer=None, fontsize=13)
     if footer:
         ax.text(
             0,
-            -1,
+            -.2,
             footer,
             fontsize=fontsize - 1,
             va='top',
