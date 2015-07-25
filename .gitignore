@@ -4,3 +4,5 @@ twitter/
 *.pyc
 exp/
 img/
+csv/
+json/
