@@ -2,6 +2,7 @@
 
 A collection of Jupyter notebooks exploring different datasets using the Python programming language:
 
+* [Ranking Subreddits by Comments, Authors and Comment/Author Ratios](http://ramiro.org/notebook/reddit-comments-subreddit-rankss/)
 * [What are the Most Edited Pages in the English Wikipedia?](http://ramiro.org/notebook/wikipedia-most-revisions/)
 * [Did the 3-Point Rule Affect Results in the German Fußball-Bundesliga?](http://ramiro.org/notebook/football-bundesliga-rule-change/)
 * [Exploring the Top Incomes Database with Pandas and Matplotlib](http://ramiro.org/notebook/top-incomes-share/)
