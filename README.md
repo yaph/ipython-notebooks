@@ -2,7 +2,8 @@
 
 A collection of Jupyter notebooks exploring different datasets using the Python programming language:
 
-* [Adding Branding Images to Plots in Matplotlib](http://ramiro.org/notebook/matplotlib-branding/)
+* [The Best Times to Post to reddit Revisited](http://ramiro.org/notebook/reddit-best-post-times/)
+* [How US Presidents Died According to Wikidata](http://ramiro.org/notebook/us-presidents-causes-of-death/)
 * [Creating a Choropleth Map of the World in Python using Basemap](http://ramiro.org/notebook/basemap-choropleth/)
 * [Ranking Subreddits by Comments, Authors and Comment/Author Ratios](http://ramiro.org/notebook/reddit-comments-subreddit-ranks/)
 * [What are the Most Edited Pages in the English Wikipedia?](http://ramiro.org/notebook/wikipedia-most-revisions/)
