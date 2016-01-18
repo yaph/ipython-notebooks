@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import IPython
 import platform
+import matplotlib
+import pandas
 
 from datetime import datetime
 from IPython.core import display
@@ -16,13 +18,15 @@ class Signature(Magics):
     @line_magic
     def signature(self, line):
         sig = '''Author: <a href="http://ramiro.org/">Ramiro Gómez</a>
-            • Last edited: {}<br>{} {} - {} {} - IPython {}'''.format(
+            • Last edited: {}<br>{} {} - {} {} - IPython {} - matplotlib {} - pandas {}'''.format(
                 datetime.now().strftime('%B %d, %Y'),
                 platform.system(),
                 platform.release(),
                 platform.python_implementation(),
                 platform.python_version(),
-                IPython.__version__)
+                IPython.__version__,
+                matplotlib.__version__,
+                pandas.__version__)
 
         return display.HTML(sig)
 
