@@ -2,6 +2,7 @@
 import IPython
 import platform
 import matplotlib
+import numpy
 import pandas
 
 from datetime import datetime
@@ -18,7 +19,7 @@ class Signature(Magics):
     @line_magic
     def signature(self, line):
         sig = '''Author: <a href="http://ramiro.org/">Ramiro Gómez</a>
-            • Last edited: {}<br>{} {} - {} {} - IPython {} - matplotlib {} - pandas {}'''.format(
+            • Last edited: {}<br>{} {} - {} {} - IPython {} - matplotlib {} - numpy {} - pandas {}'''.format(
                 datetime.now().strftime('%B %d, %Y'),
                 platform.system(),
                 platform.release(),
@@ -26,6 +27,7 @@ class Signature(Magics):
                 platform.python_version(),
                 IPython.__version__,
                 matplotlib.__version__,
+                numpy.__version__,
                 pandas.__version__)
 
         return display.HTML(sig)
