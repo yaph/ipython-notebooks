@@ -2,7 +2,7 @@
 
 A collection of Jupyter notebooks exploring different datasets using the Python programming language:
 
-
+* [What Software Engineers Earn Compared to the General Population](http://ramiro.org/notebook/income-software-engineers-countries/)
 * [Word Cloud of the Most Frequent Words in the Canon of Sherlock Holmes](http://ramiro.org/notebook/sherlock-holmes-canon-wordcloud/)
 * [The Best Times to Post to reddit Revisited](http://ramiro.org/notebook/reddit-best-post-times/)
 * [How US Presidents Died According to Wikidata](http://ramiro.org/notebook/us-presidents-causes-of-death/)
