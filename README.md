@@ -2,6 +2,7 @@
 
 A collection of Jupyter notebooks exploring different datasets using the Python programming language:
 
+* [Creating a Choropleth Map of the World in Python using GeoPandas](http://ramiro.org/notebook/geopandas-choropleth/)
 * [r/place Color Propensity by Country](http://ramiro.org/notebook/rplace-country-color-propensity/)
 * [What Software Engineers Earn Compared to the General Population](http://ramiro.org/notebook/income-software-engineers-countries/)
 * [Word Cloud of the Most Frequent Words in the Canon of Sherlock Holmes](http://ramiro.org/notebook/sherlock-holmes-canon-wordcloud/)
