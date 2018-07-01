@@ -2,6 +2,7 @@
 
 A collection of Jupyter notebooks exploring different datasets using the Python programming language:
 
+* [Stack Overflow Survey 2018: Technology Preferences](http://ramiro.org/notebook/sos2018-technology-preferences/)
 * [Creating a world map of metal bands in Python](http://ramiro.org/notebook/metal-bands-map/)
 * [Creating a Choropleth Map of the World in Python using GeoPandas](http://ramiro.org/notebook/geopandas-choropleth/)
 * [r/place Color Propensity by Country](http://ramiro.org/notebook/rplace-country-color-propensity/)
