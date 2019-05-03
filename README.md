@@ -2,6 +2,7 @@
 
 A collection of Jupyter notebooks exploring different datasets using the Python programming language:
 
+* [Word Cloud From Reddit Comments Gilded 10 Or More Times](http://ramiro.org/notebook/reddit-gilded-comments-wordcloud/)
 * [Stack Overflow Survey 2018: Respondents World Map](http://ramiro.org/notebook/sos2018-respondents-world-map/)
 * [Stack Overflow Survey 2018: Technology Preferences](http://ramiro.org/notebook/sos2018-technology-preferences/)
 * [Creating a world map of metal bands in Python](http://ramiro.org/notebook/metal-bands-map/)
