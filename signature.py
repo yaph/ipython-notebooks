@@ -18,7 +18,7 @@ class Signature(Magics):
 
     @line_magic
     def signature(self, line):
-        sig = '''Author: <a href="http://ramiro.org/">Ramiro Gómez</a>
+        sig = '''Author: <a href="https://ramiro.org/">Ramiro Gómez</a>
             • Last edited: {}<br>{} {} - {} {} - IPython {} - matplotlib {} - numpy {} - pandas {}'''.format(
                 datetime.now().strftime('%B %d, %Y'),
                 platform.system(),
