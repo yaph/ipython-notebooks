@@ -1,13 +1,6 @@
-# Data directories
-data/
-twitter/
+# Directories
 exp/
-export/
 img/
-csv/
-json/
-shp/
-sqlite/
 
 # IPython
 .ipynb_checkpoints
