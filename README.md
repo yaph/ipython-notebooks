@@ -13,6 +13,7 @@ A collection of Jupyter notebooks exploring different datasets using the Python 
 * [Word Cloud of the Most Frequent Words in the Canon of Sherlock Holmes](https://ramiro.org/notebook/sherlock-holmes-canon-wordcloud/)
 * [The Best Times to Post to reddit Revisited](https://ramiro.org/notebook/reddit-best-post-times/)
 * [How US Presidents Died According to Wikidata](https://ramiro.org/notebook/us-presidents-causes-of-death/)
+* [Adding Branding Images to Plots in Matplotlib](https://ramiro.org/notebook/matplotlib-branding/)
 * [Creating a Choropleth Map of the World in Python using Basemap](https://ramiro.org/notebook/basemap-choropleth/)
 * [Ranking Subreddits by Comments, Authors and Comment/Author Ratios](https://ramiro.org/notebook/reddit-comments-subreddit-ranks/)
 * [What are the Most Edited Pages in the English Wikipedia?](https://ramiro.org/notebook/wikipedia-most-revisions/)
