@@ -2,6 +2,7 @@
 
 A collection of Jupyter notebooks exploring different datasets using the Python programming language:
 
+* [Setting a column based on another one and multiple conditions in pandas](https://ramiro.org/notebook/pandas-column-setting/)
 * [Runtime comparison of pandas crosstab, groupby and pivot_table](https://ramiro.org/notebook/pandas-crosstab-groupby-pivot/)
 * [Word Cloud From Reddit Comments Gilded 10 Or More Times](https://ramiro.org/notebook/reddit-gilded-comments-wordcloud/)
 * [Stack Overflow Survey 2018: Respondents World Map](https://ramiro.org/notebook/sos2018-respondents-world-map/)
