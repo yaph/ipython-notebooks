@@ -2,6 +2,12 @@
 
 A collection of Jupyter notebooks exploring different datasets using the Python programming language:
 
+## Published on geeksta.net
+
+* [Automating Browser Screenshots for Social Media](https://geeksta.net/geeklog/automating-browser-screenshots-social-media/)
+
+## Published on ramiro.org
+
 * [Setting a column based on another one and multiple conditions in pandas](https://ramiro.org/notebook/pandas-column-setting/)
 * [Runtime comparison of pandas crosstab, groupby and pivot_table](https://ramiro.org/notebook/pandas-crosstab-groupby-pivot/)
 * [Word Cloud From Reddit Comments Gilded 10 Or More Times](https://ramiro.org/notebook/reddit-gilded-comments-wordcloud/)
